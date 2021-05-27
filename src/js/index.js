@@ -4,7 +4,7 @@ const key = "AIzaSyCm0wguE_cR7SS3niaYP7PjVHj0_HWoMO0";
 
 const query = async function(){
     try {
-       const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=happy&printType=books&key=${key}`);
+       const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=summer&maxResults=12&printType=books&key=${key}`);
 
          const data = await response.json();
          data.items.forEach((book) => {
@@ -38,7 +38,7 @@ const query = async function(){
 
     } catch (error) {
         console.log(error);
-        alert("error error!");
+        alert("error error");
     }
 };
 query();

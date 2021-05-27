@@ -9,7 +9,7 @@ const listen = function () {
     const searchQuery = async function () {
       console.log("ansync");
       try {
-         const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${searchParams}&key=${key}`);
+         const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${searchParams}&maxResults=12&printType=books&key=${key}`);
   
            const data = await response.json();
            data.items.forEach((book) => {
