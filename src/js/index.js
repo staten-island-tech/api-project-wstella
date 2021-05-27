@@ -26,14 +26,13 @@ const query = async function(){
                </div>
      
                <div class="publish-box">
-                 <p class="publish-date">Published</p>
+                 <p class="publish-date">Published on</p>
                  <p class="publish-date">${book.volumeInfo.publishedDate}</p>
                </div>
      
                <div class="book-genres">
-                 <li class="book-genre">Sci-Fi</li>
-                 <li class="book-genre">Fantasy</li>
-                 <li class="book-genre">Horror</li>
+                 <li class="book-genre">${book.volumeInfo.categories}</li>
+
                </div>
              </div>
            </div>`);
