@@ -17,11 +17,15 @@ body {
   text-align: center;
 }
 
+.search-header-link:hover {
+  color: red;
+}
+
 .search-header-link,
 .search-header-link:visited,
 .search-header-link:link {
   text-decoration: none;
-  color: rgb(252, 239, 239);
+  color: rgb(255, 255, 255);
 }
 
 .search-form {

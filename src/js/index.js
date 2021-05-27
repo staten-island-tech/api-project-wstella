@@ -1,6 +1,4 @@
 import { DOMSelectors } from "./DOM";
-import { genres } from "./genre";
-
 const key = "AIzaSyCm0wguE_cR7SS3niaYP7PjVHj0_HWoMO0";
 
 
