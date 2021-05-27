@@ -1,4 +1,5 @@
 import { DOMSelectors } from "./DOM";
+const key = "AIzaSyCm0wguE_cR7SS3niaYP7PjVHj0_HWoMO0";
 
 const listen = function () {
   DOMSelectors.searchForm.addEventListener("submit", function(e) {
